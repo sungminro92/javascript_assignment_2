@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+}
+
+h3 {
+    font-family: Helvetica;
+}
+
+button {
+    font-family: Helvetica;
+    font-size: 15px;
+    border: 1px solid black;
+    height: 25px;
+}
+
+button:hover {
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+}
+
+.break {
+    width: 100%;
+    height: 25px;
+}
