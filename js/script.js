@@ -77,20 +77,21 @@ function simpleLoop() {
 
 function forLoop() {
 //     document
+	let rn = createRandom(30);
     document.getElementById('look').innerHTML = '';
 	let look = document.getElementById('look');
 	let triangle = document.createTextNode('What an awesome equilateral triangle inside console!');
 	look.appendChild(triangle);
-	for( i = 0; i < 20; i ++) {
+	for(let i = 0; i < rn; i ++) {
 		if (i % 2 === 1) {
-            log(' '.repeat((20-i)/2) + '#'.repeat(i));
+            log(' '.repeat((rn-i)/2) + '#'.repeat(i));
 		}
 	}
 }
 
 function chessBoard() {
 
-	for ( i= 0; i < 8; i++) {
+	for (let i= 0; i < 8; i++) {
 		if (i % 2 === 0) {
             log('#  '.repeat(8));
 		} else {
